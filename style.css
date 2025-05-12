@@ -1,0 +1,121 @@
+/* style.css */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Main container styling */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Content container */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Headings */
+.heading {
+    color: #2575fc;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sub-heading {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Form controls */
+.form-controls {
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+}
+
+.form-input:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+    outline: none;
+}
+
+.image-generate-btn {
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.image-generate-btn:hover {
+    background-color: #1b5ab6;
+}
+
+/* Image container */
+.image-container {
+    margin: 30px 0;
+    text-align: center;
+    display: none;
+}
+
+.my-generated-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #6a11cb;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.contact-detail {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-detail:hover {
+    color: #6a11cb;
+}

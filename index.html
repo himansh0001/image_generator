@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Main container for all the content -->
+    <div class="main-container">
+
+        <!-- Container for the heading and form -->
+        <div class="container">
+            <!-- Section for page headings -->
+            <div class="headings-container">
+                <h1>AI Image Generator</h1>
+                <h2 class="heading">Generate AI-based images from your input</h2>
+                <h5 class="sub-heading">
+                    Enter your text in the input field below and generate an AI-based image!
+                </h5>
+            </div>
+
+            <!-- Form container for input and submit button -->
+            <div id="generate-image-form" class="form-container">
+                <form class="my-form">
+                    <input id="input-value" placeholder="Enter some text..." type="text" class="form-input form-controls">
+                    <button type="submit" class="image-generate-btn form-controls">Generate Image</button>
+                </form>
+            </div>
+
+            <!-- Section to display the generated image -->
+            <div id="images-visible" class="image-container">
+                <p id="imageContainerText"></p>
+                <img id="generated-image" class="my-generated-image" src="" alt="AI Generated Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer with contact information -->
+    <footer class="footer">
+        <h4>Contact Information</h4>
+        <p>Name: <span class="contact-detail">Himansh Rajput</span></p>
+        <p>Email: <a href="mailto:himanshrajput47@gmail.com" class="contact-detail">himanshrajput47@gmail.com</a></p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
